@@ -1,6 +1,6 @@
 import warnings
 warnings.filterwarnings('ignore')
-
+import pandas as pd
 import cv2
 import numpy as np
 from keras.models import load_model
@@ -10,9 +10,12 @@ import matplotlib.pyplot as plt
 
 
 def video_capture():
+    global result1, text
+    result1 = []
+    text = []
     model = load_model("model.hdf5")
 
-    model.summary()
+    #model.summary()
 
 
     faceCascade = cv2.CascadeClassifier('haarcascade_frontalface_alt.xml')
@@ -53,19 +56,20 @@ def video_capture():
 
             
             for i in range(len(target)):
-                print("{} :- {}".format(target[i], value[0][i]))
+                #print("{} :- {}".format(target[i], value[0][i]))
 
-                text = "{} :- {}".format(target[i], value[0][i])
-                print(text)
-
+                tex = "{} :- {}".format(target[i], value[0][i])
+                #print(tex)
+                text.append(value[0][i])
+                result1.append(target[i])
 
             val = np.argmax(value)
             result = target[val]
-            print(result)
+            #print(result)
             cv2.putText(frame, result, (x, y), font, 1, (255, 0, 0), 1, cv2.LINE_AA)
 
-            # cv2.putText(frame, text, (x, y), font, 1, (255, 0, 0), 1, cv2.LINE_AA)
 
+            # cv2.putText(frame, text, (x, y), font, 1, (255, 0, 0), 1, cv2.LINE_AA)
             graph.append(result)
 
         cv2.imshow('Video', frame)
@@ -74,10 +78,21 @@ def video_capture():
         if cv2.waitKey(1) & 0xFF == ord('q'):
             break
 
+        #print("text:-", text)
+        #print("result:-", result1)
+
+        data = pd.DataFrame(
+        {'Emotion':result1,
+         'value' : text}
+        )
+
+        data.to_csv("csv_data.csv")
+
+        
 
     video_capture.release()
     cv2.destroyAllWindows()
 
-    return graph
+    return graph, result1, text
 
 #video_capture()
