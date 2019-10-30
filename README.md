@@ -32,4 +32,30 @@ Here if you are intered you can uodate the preprocessing code and the model also
 
 # Working of the model
 
-TO BE CONTINUED..................
+you can get the data from the this link https://drive.google.com/open?id=1sN0TtZ3LGTh2M15Zy-xB0tl1gGtfxtNT
+
+# Model file 
+
+you can model.hdf5 file from this link https://drive.google.com/open?id=1q29tJlE81i7dAToResbGMjszkLQE1V5j
+
+# Running the model 
+
+just open your CMD or Terminal
+run this command
+    
+    python3 app.py
+    
+ after running the command you can see all the files like
+ 
+    1.csv_data.csv
+    2.foo.png
+    3.bar.png
+    
+# Authors 
+    1. Sai Reddy
+    2. Nayeem
+    3. Mastan
+    4. Lokesh
+    5. Harish
+  
+ 
