@@ -22,9 +22,11 @@ To use this code just we need to install some packages from pypi library
 
 Just run the below command
 
-    sudo apt install -r requirements.txt
+    sudo apt install python3-pip  # if no pip is present
+    
+    sudo pip3 install -r requirements.txt
     or
-    pip3 install requirements.txt
+    pip3 install -r requirements.txt
     
 # How play with the model and the preprocessing code
 
@@ -52,7 +54,7 @@ run this command
     3.bar.png
     
 # Authors 
-    1. Sai Reddy
+    1. SaiReddy
     2. Nayeem
     3. Mastan
     4. Lokesh
