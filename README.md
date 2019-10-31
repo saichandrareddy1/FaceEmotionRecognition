@@ -7,6 +7,16 @@ It is fully develpoed for Face Emotion recognition with help of the computer vis
 # How to Use it?
 To use this code just we need to install some packages from pypi library
 
+## Download repo or clone the repo
+    
+    git clone https://github.com/saichandrareddy1/FaceEmotionRecognition.git 
+
+The above thing is buy using HTTPS we are going to clone the data into the ubuntu 
+    
+for windows download the repo or by using wget we can get it, if it not present install it by using https://builtvisible.com/download-your-website-with-wget/
+
+    wget https://github.com/saichandrareddy1/FaceEmotionRecognition.git
+
 # Prerequests **
 
     1.We need Python 3.x idle or Anaconda
@@ -20,14 +30,71 @@ To use this code just we need to install some packages from pypi library
 
 # How to install all the prerequests
 
-Just run the below command
+Just run the below command mostly this is for the python idle or Anaconda 
 
     sudo apt install python3-pip  # if no pip is present
     
     sudo pip3 install -r requirements.txt
     or
     pip3 install -r requirements.txt
+
+## Manual installation for Anaconda
+
+In anaconda numpy, matplotlib, pandas are pre-installed or if it not installed in your envirolment use below commands
+
+    conda install -c conda-forge numpy
+    conda install -c conda-forge matplotlib
+    conda install -c conda-forge seaborn
+    conda install -c anaconda pandas
+    conda install -c conda-forge opencv
     
+    #GPU TENSORFLOW installation
+    conda install -c anaconda tensorflow-gpu
+    conda install -c anaconda keras-gpu
+    
+    #CPU 
+    conda install -c anaconda tensorflow
+    conda install -c anaconda keras
+    
+## Manual installation using pip command on CMD windows or Ubuntu
+
+### ================WINDOWS===================
+       
+     pip3 install numpy
+     pip3 install pandas 
+     pip3 install matplotlib.pyplot
+     pip3 install seaborn
+     pip3 install python3-opencv
+     
+     #GPU
+     pip3 install tensorflow-gpu
+     pip3 install keras
+     
+     #CPU
+     pip3 install tensorflow
+     pip3 install keras
+     
+### ====================UBUNTU==============================
+    
+    sudo apt install python3-pip
+    sudo pip3 install numpy
+    sudo pip3 install pandas
+    sudo pip3 install matplotlib
+    sudo pip3 install seaborn
+    sudo pip3 install opencv
+    
+    #GPU
+    sudo pip3 install tensorflow-gpu
+    sudo pip3 install keras
+    
+    #CPU
+    sudo pip3 install keras
+    sudo pip3 install tensorflow
+    
+Regarding using Sudo apt did you get any errors please try to use sudo apt-get command
+
+If you get any errors while installation please report on the issues 
+ 
 # How play with the model and the preprocessing code
 
 Here if you are intered you can uodate the preprocessing code and the model also
