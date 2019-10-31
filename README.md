@@ -90,5 +90,6 @@ This project is supported for the
 
 If you see any Vulnerability in code or while runnig time please push me a request or inform on ISSUES
 
- 
- 
+## LICENSE
+
+This repo is under GPL license if need to know more please check LICENSE.md
