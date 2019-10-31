@@ -17,7 +17,7 @@ for windows download the repo or by using wget we can get it, if it not present 
 
     wget https://github.com/saichandrareddy1/FaceEmotionRecognition.git
 
-# Prerequests **
+# Prerequisites **
 
     1.We need Python 3.x idle or Anaconda
     2.Need all the libraries 
@@ -28,7 +28,7 @@ for windows download the repo or by using wget we can get it, if it not present 
       5.opencv
       6.keras backend tensorflow
 
-# How to install all the prerequests
+# How to install all the prerequisites
 
 Just run the below command mostly this is for the python idle or Anaconda 
 
