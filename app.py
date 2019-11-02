@@ -4,10 +4,13 @@ from CSV_create import csv_create
 from value_count import value_count
 from face_emotion_recognition import video_capture
 from bar import bar
+import matplotlib.animation as animation
+import matplotlib.pyplot as plt
 
 if __name__ == "__main__":
 
-    graph, result, text = video_capture()
+
+    graph = video_capture()
 
     #csv = csv_create(result, text)
 

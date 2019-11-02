@@ -9,11 +9,11 @@ def value_count(angry, disgust, fear, happy, sad, surprise, neutral):
     confidence_high = li[3] + li[-1] // sum(li)
     confidence_low = li[2] + li [4] // sum(li)
 
-    if confidence_high >= 75:
+    if confidence_high > 75:
 
         print("Good confidence and Grade {}".format("Strong A++"))
 
-    elif confidence_high <= 74 or confidence_high >= 65:
+    elif confidence_high < 74 or confidence_high >= 65:
 
         print("Better confidence and Grade {}".format("Strong A+"))
 
