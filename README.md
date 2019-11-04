@@ -138,9 +138,12 @@ This project is supported for the
 | Version           | Supported          |
 | ----------------- | ------------------ |
 | python 3.6        | :white_check_mark: |
-| python 3.7        | :x:                |
+| python 3.7        | :white_check_mark: |
+| python 3.8        | :x:                |
 | tensorflow < 2.0  | :white_check_mark: |
 | tensorflow > 2.0  | :x:                |
+| keras 2.3.0+      | :white_check_mark: |
+| keras 2.3.0 <     | Not_checked        |
 
 
 
@@ -150,8 +153,10 @@ This project is supported for the
 | Tested            | Supported          |
 | ----------------- | ------------------ |
 | Ubuntu 18.04      | :white_check_mark: |
-| windows 10        | :x:                |
+| windows 10        | :white_check_mark: |
 | MacOS             | :x:                |
+| RedHat            | Not_checked        |
+| Pop_os 18.04      | :white_check_mark  |
 
 ## Reporting a Vulnerability
 
