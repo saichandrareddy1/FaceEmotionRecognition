@@ -155,8 +155,8 @@ This project is supported for the
 | Ubuntu 18.04      | :white_check_mark: |
 | windows 10        | :white_check_mark: |
 | MacOS             | :x:                |
+| Pop_os 18.04      | :white_check_mark: |
 | RedHat            | Not_checked        |
-| Pop_os 18.04      | :white_check_mark  |
 
 ## Reporting a Vulnerability
 
