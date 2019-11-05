@@ -2,6 +2,6 @@ numpy
 matplotlib
 seaborn
 pandas
-opencv
+opencv-python
 keras
 tensorflow
