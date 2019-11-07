@@ -121,13 +121,17 @@ run this command
     3.bar.png
     
 # Authors 
-    1. SaiReddy
+    1. Sai Chandra Reddy
+    Email:- vsaichandrareddy@gmail.com
     2. Nayeem
     3. Mastan
     4. Lokesh
     5. Harish
     
-    
+# Mentor
+    Dr. Parminder Singh
+    Associate Professor from Lovely Professional University, Phagwara, punjab, INDIA
+    Email:- parminder.16479@lpu.co.in
     
 ## Security Policy
 
