@@ -120,6 +120,20 @@ run this command
     2.foo.png
     3.bar.png
     
+ # Final results
+ 
+ ### after running you can see Live Graphs
+ 
+ ![Live Graphs](figure.png?raw=true "Ploting")
+ 
+ ### Pie Charts In detail 
+ 
+ ![Pie](foo.png?raw=true "Pie Charts")
+ 
+### Bar Graphs 
+
+![Bar](bar.png?raw=true "Bar Graphs")
+ 
 # Authors 
     1. Sai Chandra Reddy
     Email:- vsaichandrareddy@gmail.com
