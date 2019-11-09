@@ -124,10 +124,13 @@ run this command
     1. Sai Chandra Reddy
     Email:- vsaichandrareddy@gmail.com
     2. Nayeem
+    Email - sunnynayeem@gmail.com
     3. Mastan
+    Email - 
     4. Lokesh
-    lokeshkrishnavls@gmail.com
+    Email - lokeshkrishnavls@gmail.com
     5. Harish
+    Email - 
     
 # Mentor
     Dr. Parminder Singh
