@@ -140,11 +140,11 @@ run this command
     2. Nayeem
     Email - sunnynayeem@gmail.com
     3. Mastan
-    Email - 
+    Email - chinnak1456@gmail.com
     4. Lokesh
     Email - lokeshkrishnavls@gmail.com
     5. Harish
-    Email - 
+    Email - jayaharishpilladi@gmail.com
     
 # Mentor
     Dr. Parminder Singh
