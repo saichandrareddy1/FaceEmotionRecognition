@@ -13,14 +13,22 @@ def value_count(angry, disgust, fear, happy, sad, surprise, neutral):
 
         print("Good confidence and Grade {}".format("Strong A++"))
 
+        return "Good confidence and Grade {}".format("Strong A++")
+
     elif confidence_high < 74 or confidence_high >= 65:
 
         print("Better confidence and Grade {}".format("Strong A+"))
+
+        return "Better confidence and Grade {}".format("Strong A+")
 
     elif confidence_high > 54 or  confidence_high < 64:
 
         print("its okay and Grade {}".format("weak B"))
 
+        return "its okay and Grade {}".format("weak B")
+
     else:
 
         print("Need to improve and Grade {}".format("Failed"))
+
+        return "Need to improve and Grade {}".format("Failed")

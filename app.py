@@ -6,6 +6,7 @@ from face_emotion_recognition import video_capture
 from bar import bar
 import matplotlib.animation as animation
 import matplotlib.pyplot as plt
+from confidence_gui import GUI_Confidence
 
 if __name__ == "__main__":
 
@@ -19,5 +20,7 @@ if __name__ == "__main__":
     pie_plotting(angry, disgust, fear, happy, sad, surprise, neutral, 'foo.png')
 
 
-    value_count(angry, disgust, fear, happy, sad, surprise, neutral)
+    result = value_count(angry, disgust, fear, happy, sad, surprise, neutral)
     bar(angry, disgust, fear, happy, sad, surprise, neutral)
+    GUI_Confidence(result)
+    
