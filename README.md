@@ -126,6 +126,8 @@ run this command
  
  [<img src="https://img.youtube.com/vi/06SNADSY0VM/maxresdefault.jpg" width="50%">](https://youtu.be/06SNADSY0VM)
  
+ [![video](video.png?raw=true "video")](https://youtu.be/06SNADSY0VM)
+ 
  ### after running you can see Live Graphs
  
  ![Live Graphs](figure.png?raw=true "Ploting")
